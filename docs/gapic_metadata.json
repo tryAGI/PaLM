@@ -1,0 +1,72 @@
+{
+  "schema": "1.0",
+  "comment": "This file maps proto services/RPCs to the corresponding library clients/methods",
+  "language": "csharp",
+  "protoPackage": "google.ai.generativelanguage.v1beta2",
+  "libraryPackage": "Google.Ai.Generativelanguage.V1Beta2",
+  "services": {
+    "DiscussService": {
+      "clients": {
+        "grpc": {
+          "libraryClient": "DiscussServiceClient",
+          "rpcs": {
+            "CountMessageTokens": {
+              "methods": [
+                "CountMessageTokens",
+                "CountMessageTokensAsync"
+              ]
+            },
+            "GenerateMessage": {
+              "methods": [
+                "GenerateMessage",
+                "GenerateMessageAsync"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ModelService": {
+      "clients": {
+        "grpc": {
+          "libraryClient": "ModelServiceClient",
+          "rpcs": {
+            "GetModel": {
+              "methods": [
+                "GetModel",
+                "GetModelAsync"
+              ]
+            },
+            "ListModels": {
+              "methods": [
+                "ListModels",
+                "ListModelsAsync"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "TextService": {
+      "clients": {
+        "grpc": {
+          "libraryClient": "TextServiceClient",
+          "rpcs": {
+            "EmbedText": {
+              "methods": [
+                "EmbedText",
+                "EmbedTextAsync"
+              ]
+            },
+            "GenerateText": {
+              "methods": [
+                "GenerateText",
+                "GenerateTextAsync"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

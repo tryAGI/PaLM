@@ -1,0 +1,1873 @@
+{
+  "clientLibrary": {
+    "name": "Google.Ai.Generativelanguage.V1Beta2",
+    "language": "C_SHARP",
+    "apis": [
+      {
+        "id": "google.ai.generativelanguage.v1beta2",
+        "version": "v1beta2"
+      }
+    ]
+  },
+  "snippets": [
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_GenerateMessage_sync",
+      "title": "GenerateMessageRequestObject",
+      "description": "Snippet for GenerateMessage",
+      "file": "DiscussServiceClient.GenerateMessageRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateMessage",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.GenerateMessage",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.GenerateMessageRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.GenerateMessageResponse",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateMessage",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.GenerateMessage",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 49,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 47,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_GenerateMessage_async",
+      "title": "GenerateMessageRequestObjectAsync",
+      "description": "Snippet for GenerateMessageAsync",
+      "file": "DiscussServiceClient.GenerateMessageRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateMessageAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.GenerateMessageAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.GenerateMessageRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.GenerateMessageResponse>",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateMessage",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.GenerateMessage",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 50,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_GenerateMessage_sync_flattened",
+      "title": "GenerateMessage",
+      "description": "Snippet for GenerateMessage",
+      "file": "DiscussServiceClient.GenerateMessageSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateMessage",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.GenerateMessage",
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.GenerateMessageResponse",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateMessage",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.GenerateMessage",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 46,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 44,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_GenerateMessage_async_flattened",
+      "title": "GenerateMessageAsync",
+      "description": "Snippet for GenerateMessageAsync",
+      "file": "DiscussServiceClient.GenerateMessageAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateMessageAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.GenerateMessageAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.GenerateMessageResponse>",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateMessage",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.GenerateMessage",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 47,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 45,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_GenerateMessage_sync_flattened_resourceNames",
+      "title": "GenerateMessageResourceNames",
+      "description": "Snippet for GenerateMessage",
+      "file": "DiscussServiceClient.GenerateMessageResourceNamesSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateMessage",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.GenerateMessage",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.GenerateMessageResponse",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateMessage",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.GenerateMessage",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 46,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 44,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_GenerateMessage_async_flattened_resourceNames",
+      "title": "GenerateMessageResourceNamesAsync",
+      "description": "Snippet for GenerateMessageAsync",
+      "file": "DiscussServiceClient.GenerateMessageResourceNamesAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateMessageAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.GenerateMessageAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.GenerateMessageResponse>",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateMessage",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.GenerateMessage",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 47,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 45,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_CountMessageTokens_sync",
+      "title": "CountMessageTokensRequestObject",
+      "description": "Snippet for CountMessageTokens",
+      "file": "DiscussServiceClient.CountMessageTokensRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "CountMessageTokens",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.CountMessageTokens",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensResponse",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "CountMessageTokens",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.CountMessageTokens",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 45,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 43,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_CountMessageTokens_async",
+      "title": "CountMessageTokensRequestObjectAsync",
+      "description": "Snippet for CountMessageTokensAsync",
+      "file": "DiscussServiceClient.CountMessageTokensRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "CountMessageTokensAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.CountMessageTokensAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensResponse>",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "CountMessageTokens",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.CountMessageTokens",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 46,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 44,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_CountMessageTokens_sync_flattened",
+      "title": "CountMessageTokens",
+      "description": "Snippet for CountMessageTokens",
+      "file": "DiscussServiceClient.CountMessageTokensSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "CountMessageTokens",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.CountMessageTokens",
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensResponse",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "CountMessageTokens",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.CountMessageTokens",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 42,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_CountMessageTokens_async_flattened",
+      "title": "CountMessageTokensAsync",
+      "description": "Snippet for CountMessageTokensAsync",
+      "file": "DiscussServiceClient.CountMessageTokensAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "CountMessageTokensAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.CountMessageTokensAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensResponse>",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "CountMessageTokens",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.CountMessageTokens",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 43,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 41,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_CountMessageTokens_sync_flattened_resourceNames",
+      "title": "CountMessageTokensResourceNames",
+      "description": "Snippet for CountMessageTokens",
+      "file": "DiscussServiceClient.CountMessageTokensResourceNamesSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "CountMessageTokens",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.CountMessageTokens",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensResponse",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "CountMessageTokens",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.CountMessageTokens",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 42,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_DiscussService_CountMessageTokens_async_flattened_resourceNames",
+      "title": "CountMessageTokensResourceNamesAsync",
+      "description": "Snippet for CountMessageTokensAsync",
+      "file": "DiscussServiceClient.CountMessageTokensResourceNamesAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "CountMessageTokensAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient.CountMessageTokensAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.MessagePrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.CountMessageTokensResponse>",
+        "client": {
+          "shortName": "DiscussServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.DiscussServiceClient"
+        },
+        "method": {
+          "shortName": "CountMessageTokens",
+          "fullName": "google.ai.generativelanguage.v1beta2.DiscussService.CountMessageTokens",
+          "service": {
+            "shortName": "DiscussService",
+            "fullName": "google.ai.generativelanguage.v1beta2.DiscussService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 43,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 41,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_GetModel_sync",
+      "title": "GetModelRequestObject",
+      "description": "Snippet for GetModel",
+      "file": "ModelServiceClient.GetModelRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GetModel",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.GetModel",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.GetModelRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.Model",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "GetModel",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.GetModel",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 44,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 42,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_GetModel_async",
+      "title": "GetModelRequestObjectAsync",
+      "description": "Snippet for GetModelAsync",
+      "file": "ModelServiceClient.GetModelRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GetModelAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.GetModelAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.GetModelRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.Model>",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "GetModel",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.GetModel",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 45,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 43,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_GetModel_sync_flattened",
+      "title": "GetModel",
+      "description": "Snippet for GetModel",
+      "file": "ModelServiceClient.GetModelSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GetModel",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.GetModel",
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "name"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.Model",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "GetModel",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.GetModel",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 41,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 39,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_GetModel_async_flattened",
+      "title": "GetModelAsync",
+      "description": "Snippet for GetModelAsync",
+      "file": "ModelServiceClient.GetModelAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GetModelAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.GetModelAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "name"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.Model>",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "GetModel",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.GetModel",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 42,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_GetModel_sync_flattened_resourceNames",
+      "title": "GetModelResourceNames",
+      "description": "Snippet for GetModel",
+      "file": "ModelServiceClient.GetModelResourceNamesSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GetModel",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.GetModel",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "name"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.Model",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "GetModel",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.GetModel",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 41,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 39,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_GetModel_async_flattened_resourceNames",
+      "title": "GetModelResourceNamesAsync",
+      "description": "Snippet for GetModelAsync",
+      "file": "ModelServiceClient.GetModelResourceNamesAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GetModelAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.GetModelAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "name"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.Model>",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "GetModel",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.GetModel",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 42,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 40,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_ListModels_sync",
+      "title": "ListModelsRequestObject",
+      "description": "Snippet for ListModels",
+      "file": "ModelServiceClient.ListModelsRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "ListModels",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.ListModels",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ListModelsRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Api.Gax.PagedEnumerable<Google.Ai.Generativelanguage.V1Beta2.ListModelsResponse, Google.Ai.Generativelanguage.V1Beta2.Model>",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "ListModels",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.ListModels",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 75,
+          "type": "FULL"
+        },
+        {
+          "start": 36,
+          "end": 73,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_ListModels_async",
+      "title": "ListModelsRequestObjectAsync",
+      "description": "Snippet for ListModelsAsync",
+      "file": "ModelServiceClient.ListModelsRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "ListModelsAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.ListModelsAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ListModelsRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Api.Gax.PagedAsyncEnumerable<Google.Ai.Generativelanguage.V1Beta2.ListModelsResponse, Google.Ai.Generativelanguage.V1Beta2.Model>",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "ListModels",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.ListModels",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 77,
+          "type": "FULL"
+        },
+        {
+          "start": 38,
+          "end": 75,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_ListModels_sync_flattened",
+      "title": "ListModels",
+      "description": "Snippet for ListModels",
+      "file": "ModelServiceClient.ListModelsSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "ListModels",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.ListModels",
+        "parameters": [
+          {
+            "type": "System.Int32",
+            "name": "pageSize"
+          },
+          {
+            "type": "System.String",
+            "name": "pageToken"
+          },
+          {
+            "type": "System.String",
+            "name": "pageToken"
+          },
+          {
+            "type": "System.Nullable[System.Int32]",
+            "name": "pageSize"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Api.Gax.PagedEnumerable<Google.Ai.Generativelanguage.V1Beta2.ListModelsResponse, Google.Ai.Generativelanguage.V1Beta2.Model>",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "ListModels",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.ListModels",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 76,
+          "type": "FULL"
+        },
+        {
+          "start": 36,
+          "end": 74,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_ModelService_ListModels_async_flattened",
+      "title": "ListModelsAsync",
+      "description": "Snippet for ListModelsAsync",
+      "file": "ModelServiceClient.ListModelsAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "ListModelsAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient.ListModelsAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "System.Int32",
+            "name": "pageSize"
+          },
+          {
+            "type": "System.String",
+            "name": "pageToken"
+          },
+          {
+            "type": "System.String",
+            "name": "pageToken"
+          },
+          {
+            "type": "System.Nullable[System.Int32]",
+            "name": "pageSize"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Api.Gax.PagedAsyncEnumerable<Google.Ai.Generativelanguage.V1Beta2.ListModelsResponse, Google.Ai.Generativelanguage.V1Beta2.Model>",
+        "client": {
+          "shortName": "ModelServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.ModelServiceClient"
+        },
+        "method": {
+          "shortName": "ListModels",
+          "fullName": "google.ai.generativelanguage.v1beta2.ModelService.ListModels",
+          "service": {
+            "shortName": "ModelService",
+            "fullName": "google.ai.generativelanguage.v1beta2.ModelService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 78,
+          "type": "FULL"
+        },
+        {
+          "start": 38,
+          "end": 76,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_GenerateText_sync",
+      "title": "GenerateTextRequestObject",
+      "description": "Snippet for GenerateText",
+      "file": "TextServiceClient.GenerateTextRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateText",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.GenerateText",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.GenerateTextRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.GenerateTextResponse",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.GenerateText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 55,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 53,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_GenerateText_async",
+      "title": "GenerateTextRequestObjectAsync",
+      "description": "Snippet for GenerateTextAsync",
+      "file": "TextServiceClient.GenerateTextRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateTextAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.GenerateTextAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.GenerateTextRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.GenerateTextResponse>",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.GenerateText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 56,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 54,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_GenerateText_sync_flattened",
+      "title": "GenerateText",
+      "description": "Snippet for GenerateText",
+      "file": "TextServiceClient.GenerateTextSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateText",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.GenerateText",
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.TextPrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Int32",
+            "name": "maxOutputTokens"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.GenerateTextResponse",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.GenerateText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 47,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 45,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_GenerateText_async_flattened",
+      "title": "GenerateTextAsync",
+      "description": "Snippet for GenerateTextAsync",
+      "file": "TextServiceClient.GenerateTextAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateTextAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.GenerateTextAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.TextPrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Int32",
+            "name": "maxOutputTokens"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.GenerateTextResponse>",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.GenerateText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 48,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 46,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_GenerateText_sync_flattened_resourceNames",
+      "title": "GenerateTextResourceNames",
+      "description": "Snippet for GenerateText",
+      "file": "TextServiceClient.GenerateTextResourceNamesSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateText",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.GenerateText",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.TextPrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Int32",
+            "name": "maxOutputTokens"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.GenerateTextResponse",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.GenerateText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 47,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 45,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_GenerateText_async_flattened_resourceNames",
+      "title": "GenerateTextResourceNamesAsync",
+      "description": "Snippet for GenerateTextAsync",
+      "file": "TextServiceClient.GenerateTextResourceNamesAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "GenerateTextAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.GenerateTextAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.TextPrompt",
+            "name": "prompt"
+          },
+          {
+            "type": "System.Single",
+            "name": "temperature"
+          },
+          {
+            "type": "System.Int32",
+            "name": "candidateCount"
+          },
+          {
+            "type": "System.Int32",
+            "name": "maxOutputTokens"
+          },
+          {
+            "type": "System.Single",
+            "name": "topP"
+          },
+          {
+            "type": "System.Int32",
+            "name": "topK"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.GenerateTextResponse>",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "GenerateText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.GenerateText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 48,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 46,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_EmbedText_sync",
+      "title": "EmbedTextRequestObject",
+      "description": "Snippet for EmbedText",
+      "file": "TextServiceClient.EmbedTextRequestObjectSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "EmbedText",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.EmbedText",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.EmbedTextRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.EmbedTextResponse",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "EmbedText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.EmbedText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 45,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 43,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_EmbedText_async",
+      "title": "EmbedTextRequestObjectAsync",
+      "description": "Snippet for EmbedTextAsync",
+      "file": "TextServiceClient.EmbedTextRequestObjectAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "EmbedTextAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.EmbedTextAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.EmbedTextRequest",
+            "name": "request"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.EmbedTextResponse>",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "EmbedText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.EmbedText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "canonical": true,
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 46,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 44,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_EmbedText_sync_flattened",
+      "title": "EmbedText",
+      "description": "Snippet for EmbedText",
+      "file": "TextServiceClient.EmbedTextSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "EmbedText",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.EmbedText",
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "System.String",
+            "name": "text"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.EmbedTextResponse",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "EmbedText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.EmbedText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 42,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_EmbedText_async_flattened",
+      "title": "EmbedTextAsync",
+      "description": "Snippet for EmbedTextAsync",
+      "file": "TextServiceClient.EmbedTextAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "EmbedTextAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.EmbedTextAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "System.String",
+            "name": "model"
+          },
+          {
+            "type": "System.String",
+            "name": "text"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.EmbedTextResponse>",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "EmbedText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.EmbedText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 43,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 41,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_EmbedText_sync_flattened_resourceNames",
+      "title": "EmbedTextResourceNames",
+      "description": "Snippet for EmbedText",
+      "file": "TextServiceClient.EmbedTextResourceNamesSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "EmbedText",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.EmbedText",
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "System.String",
+            "name": "text"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "Google.Ai.Generativelanguage.V1Beta2.EmbedTextResponse",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "EmbedText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.EmbedText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 42,
+          "type": "FULL"
+        },
+        {
+          "start": 34,
+          "end": 40,
+          "type": "SHORT"
+        }
+      ]
+    },
+    {
+      "regionTag": "generativelanguage_v1beta2_generated_TextService_EmbedText_async_flattened_resourceNames",
+      "title": "EmbedTextResourceNamesAsync",
+      "description": "Snippet for EmbedTextAsync",
+      "file": "TextServiceClient.EmbedTextResourceNamesAsyncSnippet.g.cs",
+      "language": "C_SHARP",
+      "clientMethod": {
+        "shortName": "EmbedTextAsync",
+        "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient.EmbedTextAsync",
+        "async": true,
+        "parameters": [
+          {
+            "type": "Google.Ai.Generativelanguage.V1Beta2.ModelName",
+            "name": "model"
+          },
+          {
+            "type": "System.String",
+            "name": "text"
+          },
+          {
+            "type": "Google.Api.Gax.Grpc.CallSettings",
+            "name": "callSettings"
+          }
+        ],
+        "resultType": "System.Threading.Tasks.Task<Google.Ai.Generativelanguage.V1Beta2.EmbedTextResponse>",
+        "client": {
+          "shortName": "TextServiceClient",
+          "fullName": "Google.Ai.Generativelanguage.V1Beta2.TextServiceClient"
+        },
+        "method": {
+          "shortName": "EmbedText",
+          "fullName": "google.ai.generativelanguage.v1beta2.TextService.EmbedText",
+          "service": {
+            "shortName": "TextService",
+            "fullName": "google.ai.generativelanguage.v1beta2.TextService"
+          }
+        }
+      },
+      "origin": "API_DEFINITION",
+      "segments": [
+        {
+          "start": 20,
+          "end": 43,
+          "type": "FULL"
+        },
+        {
+          "start": 35,
+          "end": 41,
+          "type": "SHORT"
+        }
+      ]
+    }
+  ]
+}
